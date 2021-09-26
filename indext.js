@@ -25,3 +25,8 @@ app.get('/', (req, res) => {
   server.listen(8000, () => {
     console.log('listening on *:8000');
   });
+
+// function (req, res) {
+//     res.writeHead(200);
+//     res.end("hello world\n");
+//   }
