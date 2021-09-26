@@ -22,11 +22,6 @@ app.get('/', (req, res) => {
         });
   });
   
-  server.listen(8000, () => {
-    console.log('listening on *:8000');
+  server.listen(443, () => {
+    console.log('listening on *:443');
   });
-
-// function (req, res) {
-//     res.writeHead(200);
-//     res.end("hello world\n");
-//   }
