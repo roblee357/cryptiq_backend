@@ -2,6 +2,9 @@
 Simple app to demonstrate OAuth2 authorization for Google API.
 App is comprised of a NodeJS server running on and EC2 instance with the domain name https://criptiq.io/ 
 
+Below is an example of the OAuth2 login button and popup.
+![](images/choose%20account.PNG)
+
 Below is an example of what the user would see once logged in.
 ![](images/Criptiq.io%20Success.PNG)
 
