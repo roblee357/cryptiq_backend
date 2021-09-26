@@ -14,7 +14,7 @@
     <ul id="messages"></ul>
      -->
 
-    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
 
     <script>
       var socket = io();
@@ -22,13 +22,13 @@
       var form = document.getElementById('form');
       var input = document.getElementById('input');
     
-      form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        if (input.value) {
-          socket.emit('chat message', input.value);
-          input.value = '';
-        }
-      });
+      // form.addEventListener('submit', function(e) {
+      //   e.preventDefault();
+      //   if (input.value) {
+      //     socket.emit('chat message', input.value);
+      //     input.value = '';
+      //   }
+      // });
 
       function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
