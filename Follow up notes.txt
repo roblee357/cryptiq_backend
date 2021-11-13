@@ -1,0 +1,4 @@
+Professor, 
+I believe that the problem is that the certificate is self signed. That's why the browser says "Not Secure".
+Also, I saw an error wanting me to verify/validate the source of my JS script, but didn't have any luck getting it to approve. The only scripts used were socketIO and Google's OAuth. Hmmm?
+Rob
